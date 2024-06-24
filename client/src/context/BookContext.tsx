@@ -9,7 +9,7 @@ interface Book {
 interface BookContextType {
   books: Book[];
   fetchBooks: () => void;
-  addBook: (book: Book) => void;
+  addBook: (book: { title: string }) => void;
 }
 
 export const BookContext = createContext<BookContextType | null>(null);
@@ -22,11 +22,11 @@ export const BookProvider: React.FC<BookProviderProps> = ({ children }) => {
   const [books, setBooks] = useState<Book[]>([]);
 
   const fetchBooks = async () => {
-    // Fetch books from backend API
+    // Fetch books from backend API using axios
   };
 
-  const addBook = async (book: Book) => {
-    // TODO: Add new book to the books array
+  const addBook = async (book: { title: string }) => {
+    // TODO: Add new book to the books array using
   };
 
   return (
