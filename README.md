@@ -86,7 +86,7 @@ fullstack-book-manager/
 1. Display a list of books when page loads.
 2. Add new book functionality.
 
-The back end of the full stack app is complete. This would be a good place to begin to understand what endpoints you will need to interact with on the front end. After checking out `server.ts`, `app.ts`, `bookRountes.ts` and `bookController.ts` I would then move on to the front end.
+The back end of the full stack app is complete. This would be a good place to begin to understand what endpoints you will need to interact with on the front end. After checking out `server.ts`, `app.ts`, `bookRoutes.ts` and `bookController.ts` I would then move on to the front end.
 
 To examine what needs to be done on the front end please examine the current functionality of the running app. First, try to figure out why the books are not being displayed on page load. After you have done that, work on enabling that functionality.
 
