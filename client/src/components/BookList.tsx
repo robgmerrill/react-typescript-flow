@@ -8,7 +8,7 @@ const BookList: React.FC = () => {
     if (bookContext) {
       bookContext.fetchBooks();
     }
-  }, [bookContext]);
+  }, []);
 
   if (!bookContext) {
     return null; // or handle the null case appropriately

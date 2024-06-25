@@ -1,3 +1,10 @@
+# Interview Challenge
+
+Frontend (React + TypeScript):
+
+1. Display a list of books.
+2. Add a new book.
+
 # Full-Stack Book Manager
 
 This is a simple full-stack application for managing a list of books, built with React, TypeScript, and Node.js.
